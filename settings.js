@@ -8,26 +8,26 @@ const chalk = require('chalk')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
-global.SESSION_ID = process.env.SESSION_ID || 'Bellah~2z40RA7T#VRneuCjwFxSYHupVJSJHZDNmNDE_THLCNxjVd9jGWuw' 
+global.SESSION_ID = process.env.SESSION_ID || 'Bellah~a7owiTCJ#q3_oTaWyucgfR_V_a357TnNoRf78SyVvFGopIfWNu_U' 
 //owmner v card
 global.ytname = "YT: GIDDYTENNOR" //ur yt chanel name
 global.socialm = "IG: @GIDDYTENNOR" //ur github or insta name
 global.location = "Kenya" //ur location
 
 //new
-global.botname = process.env.BOT_NAME ||'𝐁𝐞𝐥𝐥𝐚𝐡 𝐗𝐦𝐝' //enter your  bot name here
-global.ownernumber = process.env.OWNER_NUMBER ||'254104245659' //ur owner number
-global.ownername = '© TENNOMODZ' //ur owner name
-global.websitex = "https://whatsapp.com/channel/0029VaPZWbY1iUxVVRIIOm0D" //"https://chat.whatsapp.com/JmsgzJllAAB8zHfQcJXxES"
-global.wagc = "https://chat.whatsapp.com/Hs0AwkOaFzbGi5sjicdeTR" //"https://chat.whatsapp.com/JmsgzJllAAB8zHfQcJXxES"
+global.botname = process.env.BOT_NAME ||'AWAIS-MD' //enter your  bot name here
+global.ownernumber = process.env.OWNER_NUMBER ||'923189492995' //ur owner number
+global.ownername = '© AWAIS' //ur owner name
+global.websitex = "https://whatsapp.com/channel/0029VaV3nsc9Gv7VaFujMv1G" //"https://chat.whatsapp.com/JmsgzJllAAB8zHfQcJXxES"
+global.wagc = "https://whatsapp.com/channel/0029VaV3nsc9Gv7VaFujMv1G" //"https://chat.whatsapp.com/JmsgzJllAAB8zHfQcJXxES"
 global.themeemoji = '🪀'
 global.wm = "GIDDY TENNOR"
 global.botscript = 'https://whatsapp.com/channel/0029VaPZWbY1iUxVVRIIOm0D' //'https://chat.whatsapp.com/JmsgzJllAAB8zHfQcJXxES' //script link
-global.packname = process.env.PACK_NAME ||"BELLAH XMD" //enter your stickers author name here
-global.author = "Giddy-Tennor"
-global.creator = "254703726139@s.whatsapp.net"
+global.packname = process.env.PACK_NAME ||"AWAIS XMD" //enter your stickers author name here
+global.author = "𓆩𝕯𝗘𝗩𝗜𝕷࿐"
+global.creator = "923189492995@s.whatsapp.net"
 global.xprefix = process.env.PREFIX ||'.'
-global.premium = ["254703726139"] // Premium User
+global.premium = ["923189492995"] // Premium User
 global.hituet = 0
 
 //bot sett
@@ -37,7 +37,7 @@ global.autoblocknumber = process.env.AUTOBLOCK_NUMBER || '263,234' //set autoblo
 global.antiforeignnumber = process.env.ANTIFOREIGN_NUMBER || '' //set anti foreign number country code
 global.welcome = process.env.WELCOME || 'false' //welcome/left in groups
 global.anticall = process.env.ANTI_CALL || 'false' //bot blocks user when called
-global.autoswview = process.env.AUTOSW_VIEW || 'true' //auto status/story view
+global.autoswview = process.env.AUTOSW_VIEW || 'false' //auto status/story view
 global.adminevent = true //show promote/demote message
 global.groupevent = true //show update messages in group chat
 //msg
