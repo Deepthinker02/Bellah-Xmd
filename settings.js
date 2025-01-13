@@ -8,7 +8,7 @@ const chalk = require('chalk')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
-global.SESSION_ID = process.env.SESSION_ID || 'Bellah~a7owiTCJ#q3_oTaWyucgfR_V_a357TnNoRf78SyVvFGopIfWNu_U' 
+global.SESSION_ID = process.env.SESSION_ID || 'Bellah~SnQV3bbI#CDP8FAEkr08MKBUdtZ5hVyXXLBJBinGr6x6fIdNxQa0' 
 //owmner v card
 global.ytname = "YT: GIDDYTENNOR" //ur yt chanel name
 global.socialm = "IG: @GIDDYTENNOR" //ur github or insta name
